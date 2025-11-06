@@ -1,7 +1,7 @@
 // main.js
 import { supabase } from "./supabase.js";
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+console.log(supabase);
 
 /* DOM */
 const sheetTable = document.getElementById('sheetTable');
